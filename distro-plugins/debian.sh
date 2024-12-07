@@ -4,7 +4,7 @@
 DISTRO_NAME="Debian (bookworm)"
 DISTRO_COMMENT="Stable release."
 
-TARBALL_URL['aarch64']="https://github.com/termux/proot-distro/releases/download/v4.7.0/debian-bookworm-aarch64-pd-v4.7.0.tar.xz"
+TARBALL_URL['aarch64']="https://map987.github.com/https://github.com/termux/proot-distro/releases/download/v4.7.0/debian-bookworm-aarch64-pd-v4.7.0.tar.xz" #用代理下载，通过运作proot-distro install debian输出这个连接，搜源代码找到这里，问题是apt install proot-distro 和从github下载文件后运行sh文件，都可以使用proot-distro命令，是通过修改bashrc吗 
 TARBALL_SHA256['aarch64']="4baa32280cc70b67e2c650777c1d974349f0cdf23afaabc305ad3bc6182b8df8"
 TARBALL_URL['arm']="https://github.com/termux/proot-distro/releases/download/v4.7.0/debian-bookworm-arm-pd-v4.7.0.tar.xz"
 TARBALL_SHA256['arm']="0eba2cb93261d6e73c2f3c32ed7ebe9de408ceef584c5e0c0b7e237d294f7a8d"
